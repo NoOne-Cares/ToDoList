@@ -1,0 +1,108 @@
+*{
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    /* align-content: center; */
+    background: linear-gradient(to right , rgba(30, 29, 87, 1), rgba(93, 59, 156, 1));
+    /* -webkit-text-fill-color: transparent; */
+    -webkit-background-clip: text;
+    transform: translateX(33%);
+    
+} 
+
+.heading{
+    width: 30%;
+    /* border-radius: 10%/50%  60% 0%   0%  ; */
+    border-radius: 10%/50% 60% 0 0;
+    padding: 0.002% 0.002% 0.002% 3%;
+    margin-right:0 ;
+    margin-top: 40px;
+    background-color: aqua;
+}
+h1{
+    font-size: 30px;
+    transform: translateX(9px);
+}
+.list{
+    margin-top: 1.5%;
+    background-color: aliceblue;
+    margin-right:59.4% ; 
+    width: 30%;   
+}
+.item{
+    display: flex;
+    font-size: 25px;
+    margin: -3% 1%;
+
+}
+.item{
+    padding-left: 4%;
+    border-color: blue;
+    border-bottom: saddlebrown;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* border-bottom: ; */
+}
+.list[last-child]{
+    border-bottom:none ;
+}
+.content{
+    padding-left: 15px ;
+}
+#sum{
+    transform: translateY(12px);
+}
+#input{
+    width: 30%;
+    height: 45px;
+    padding: 25px;
+    margin-top: 3px;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+    font-size: 20px;
+    transform: translateX(-20px);
+  }
+#submit{
+    background-color: violet;
+    border: none;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    transform: translate(-55px,6px);
+    border-radius: 50%;
+    font-size: 30px;
+    align-items: center;
+}
+@media screen and (max-width:500px){
+    
+    body{
+        transform: translateX(23%);
+        /* padding-left:15vw ; */
+    }
+    .heading{
+        text-align: center;
+        padding-left: none;
+        width: 58vw;
+        border-radius: 5%/10%;
+        
+    }
+    h1{
+        padding: 5% 0% 5% 0%;
+    }
+    .list{
+        width: 58vw;    
+    }
+    #input{
+        width: 58vw;
+        height: 45px;
+        padding: 25px;
+    }
+
+}
+
